@@ -116,11 +116,6 @@ body {
   transform: translateY(-2px);
 }
 
-.btn-large {
-  font-size: 1.05rem;
-  padding: 0.9rem 2rem;
-}
-
 /* ============================================
    Hero
    ============================================ */
@@ -272,39 +267,9 @@ body {
   font-size: 0.9rem;
 }
 
-
-.hire-separator {
-  color: rgba(148, 148, 168, 0.3);
-}
-
-.hire-cta {
-  background: var(--gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.hire-cta:hover {
-  text-decoration: underline;
-}
-
 /* ============================================
    Experience
    ============================================ */
-
-.experience h2 {
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 3rem;
-}
-
-.section-number {
-  color: var(--accent-2);
-  font-size: 1rem;
-  margin-right: 0.75rem;
-}
 
 .experience {
   padding: 6rem 0;
@@ -413,14 +378,6 @@ footer p {
   .hire-content {
     flex-direction: column;
     text-align: center;
-  }
-
-  .hire-separator {
-    display: none;
-  }
-
-  .experience h2 {
-    font-size: 1.5rem;
   }
 
   .timeline {
